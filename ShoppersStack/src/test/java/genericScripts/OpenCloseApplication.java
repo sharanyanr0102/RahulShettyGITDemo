@@ -32,7 +32,7 @@ public class OpenCloseApplication implements FrameworkConstants
 	@AfterMethod
 	public void closeApplication() 
 	{
-		driver.close();
+		driver.quit();
 	}
 	
 }
